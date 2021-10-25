@@ -1,0 +1,33 @@
+{
+  "name": "bulma-nord",
+  "version": "1.0.0",
+  "description": "Bulma dark-mode swatch using Nord's color palette",
+  "main": "_index.scss",
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "sass bulma-nord.scss test/bulma-nord.css --watch",
+    "build": "sass bulma-nord.scss dist/bulma-nord.css && sass bulma-nord.scss dist/bulma-nord.min.css --style=compressed",
+    "test": "npm run test-python3",
+    "test-python3": "python -m http.server 8000 -d test",
+    "test-python2": "cd test && python -m SimpleHTTPServer 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BD103/Bulma-Nord.git"
+  },
+  "keywords": [
+    "sass",
+    "bulma",
+    "nord"
+  ],
+  "author": "BD103 <dont@stalk.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BD103/Bulma-Nord/issues"
+  },
+  "homepage": "https://github.com/BD103/Bulma-Nord#readme",
+  "devDependencies": {
+    "bulma": "^0.9.3",
+    "sass": "^1.43.3"
+  }
+}
