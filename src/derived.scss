@@ -1,0 +1,82 @@
+@import "initial";
+@import "nord";
+
+$primary: $nord8;
+
+$info: $nord9;
+$success: $nord14;
+$warning: $nord12;
+$danger: $nord11;
+
+$light: $nord4;
+$dark: $nord0;
+
+// Invert
+
+$nord0-invert: findColorInvert($nord0);
+$nord1-invert: findColorInvert($nord1);
+$nord2-invert: findColorInvert($nord2);
+$nord3-invert: findColorInvert($nord3);
+$nord4-invert: findColorInvert($nord4);
+$nord5-invert: findColorInvert($nord5);
+$nord6-invert: findColorInvert($nord6);
+$nord7-invert: findColorInvert($nord7);
+$nord8-invert: findColorInvert($nord8);
+$nord9-invert: findColorInvert($nord9);
+$nord10-invert: findColorInvert($nord10);
+$nord11-invert: findColorInvert($nord11);
+$nord12-invert: findColorInvert($nord12);
+$nord13-invert: findColorInvert($nord13);
+$nord14-invert: findColorInvert($nord14);
+$nord15-invert: findColorInvert($nord15);
+
+// General Colors
+
+$scheme-main: $nord0;
+$scheme-main-bis: $nord1;
+$scheme-main-ter: $nord2;
+$scheme-invert: $nord4;
+$scheme-invert-bis: $nord5;
+$scheme-invert-ter: $nord6;
+
+$background: $nord0;
+
+$border: $nord2;
+$border-hover: $nord1;
+$border-light: $nord3;
+$border-light-hover: $nord1;
+
+// Text colors
+
+$text: $nord4;
+$text-invert: $nord0;
+$text-light: $nord5;
+$text-strong: $nord4;
+
+// Code colors
+
+$code: darken($nord11, 15%);
+$code-background: $background;
+
+$pre: $text;
+$pre-background: $background;
+
+// Link colors
+
+$link: $nord7;
+$link-visited: $nord9;
+
+$link-hover: $nord9;
+$link-hover-border: $nord9;
+
+$link-focus: $nord9;
+$link-focus-border: $nord9;
+
+$link-active: $nord9;
+$link-active-border: $nord9;
+
+// Typography
+$family-secondary: $family-sans-serif;
+
+// Project
+$table-background-color: $nord1;
